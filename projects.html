@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Projects - Ayomide Abayomi-Alli</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Projects by Ayomide Abayomi-Alli - Data Science, Machine Learning, and AI projects"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="container flex-wrap">
+          <h1 class="logo">
+            <a href="index.html">Ayomide Abayomi-Alli</a>
+          </h1>
+          <ul class="navbar">
+            <li><a href="index.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="assets/Ayomide-RE__CV.pdf" target="_blank">CV</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <article class="page container">
+      <div class="page-content">
+        <h1 class="header-name">All Projects</h1>
+        <p style="text-align: justify">
+          A comprehensive collection of my data science and machine learning projects, 
+          spanning natural language processing, predictive analytics, computer vision, and AI automation. 
+          Each project demonstrates practical applications of advanced techniques to solve real-world challenges.
+        </p>
+      </div>
+    </article>
+
+    <div class="container">
+      <h2 class="header-name">Natural Language Processing & LLMs</h2>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          <a href="https://github.com/Premee12/NLP-sentiment-analysis-prediction.git" target="_blank">
+            End-to-End Sentiment Analysis Web Application
+          </a>
+        </div>
+        <div class="pub-authors">Python, Flask, XGBoost, SHAP, NLTK, Pandas, Matplotlib, HTML/CSS</div>
+        <div class="pub-venue">NLP • Web Application • Explainable AI</div>
+        <div class="pub-description" id="desc-1" style="display: none;">
+          Built a comprehensive sentiment analysis solution using Flask to create a web API for real-time sentiment prediction 
+          and bulk analysis through CSV file uploads. Implemented model explainability using SHAP values to provide transparent 
+          insights into prediction reasoning. The application features an intuitive interface for both single predictions and 
+          batch processing, making it accessible for non-technical users.
+          <br><br>
+          <strong>Key Features:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Real-time sentiment classification (positive/negative/neutral)</li>
+            <li>Batch processing capability for CSV uploads</li>
+            <li>SHAP-based model explainability for prediction transparency</li>
+            <li>Interactive visualizations for sentiment distribution</li>
+            <li>RESTful API for easy integration</li>
+          </ul>
+          <strong>Impact:</strong> Enabled real-time processing of customer feedback with 92% accuracy, providing immediate 
+          actionable insights for business decision-making. Reduced manual review time by 85%.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-1', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          <a href="#" target="_blank">
+            AI Chatbot for Internal Operations
+          </a>
+        </div>
+        <div class="pub-authors">Python, LLMs, NLP, API Integration, RAG</div>
+        <div class="pub-venue">Conversational AI • Enterprise Solution</div>
+        <div class="pub-description" id="desc-2" style="display: none;">
+          Designed and deployed an enterprise-grade AI chatbot solution to streamline internal operations for 2,000+ staff members. 
+          Leveraged large language models with retrieval-augmented generation (RAG) to provide accurate, context-aware responses 
+          to employee queries. Integrated with existing internal systems to automate routine inquiries and workflows.
+          <br><br>
+          <strong>Technical Implementation:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Custom LLM fine-tuning for domain-specific knowledge</li>
+            <li>RAG architecture for up-to-date information retrieval</li>
+            <li>Multi-turn conversation management</li>
+            <li>Integration with company knowledge base and databases</li>
+            <li>Analytics dashboard for monitoring usage and performance</li>
+          </ul>
+          <strong>Impact:</strong> Reduced turnaround time for routine inquiries by 70%, cut operational expenses by 30%, 
+          and improved customer satisfaction scores by 48%. Automated 60% of repetitive staff queries.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header-name">Predictive Analytics & Machine Learning</h2>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          <a href="https://github.com/Premee12/Churn_project.git" target="_blank">
+            Customer Churn Prediction System
+          </a>
+        </div>
+        <div class="pub-authors">Python, SQL, Scikit-learn, Keras, TensorFlow, MySQL, PostgreSQL</div>
+        <div class="pub-venue">Predictive Analytics • Deep Learning • SQL</div>
+        <div class="pub-description" id="desc-3" style="display: none;">
+          Developed a comprehensive churn prediction system that combines advanced SQL analytics with state-of-the-art 
+          machine learning models. The project involved extensive feature engineering, model comparison, and deployment 
+          of the optimal solution for production use.
+          <br><br>
+          <strong>Methodology:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>SQL-based exploratory data analysis on multi-year customer data</li>
+            <li>Feature engineering: RFM analysis, customer lifetime value, engagement metrics</li>
+            <li>Comparative analysis of ML algorithms (Random Forest, XGBoost, Neural Networks)</li>
+            <li>Hyperparameter optimization using Bayesian optimization</li>
+            <li>Model deployment with monitoring and retraining pipeline</li>
+          </ul>
+          <strong>Results:</strong> Achieved 85% precision in identifying at-risk customers, enabling proactive retention 
+          strategies. Reduced customer churn by 23% and increased retention campaign ROI by 3.5x. The model processes 
+          100,000+ customer records daily with sub-second latency.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-3', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          <a href="#" target="_blank">
+            Corporate Account Reactivation Model
+          </a>
+        </div>
+        <div class="pub-authors">Python, Scikit-learn, SQL, Feature Engineering</div>
+        <div class="pub-venue">Churn Mitigation • Business Intelligence</div>
+        <div class="pub-description" id="desc-4" style="display: none;">
+          Built advanced machine learning models to identify and reactivate dormant corporate accounts, resulting in 
+          significant revenue recovery. Employed sophisticated feature engineering and ensemble methods to predict 
+          reactivation likelihood and optimal engagement timing.
+          <br><br>
+          <strong>Approach:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Analyzed historical reactivation patterns across 50,000+ accounts</li>
+            <li>Created behavioral segmentation using clustering algorithms</li>
+            <li>Built propensity models for targeted outreach campaigns</li>
+            <li>Developed optimal timing models for engagement</li>
+            <li>A/B tested different reactivation strategies</li>
+          </ul>
+          <strong>Business Impact:</strong> Successfully reactivated over 20,000 corporate accounts, resulting in 
+          NGN 2.29 trillion increase in customer deposits. The targeted approach improved campaign efficiency by 
+          65% compared to traditional blanket campaigns.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-4', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          <a href="#" target="_blank">
+            Female SME Segmentation Model
+          </a>
+        </div>
+        <div class="pub-authors">Python, Clustering, Classification, Feature Engineering</div>
+        <div class="pub-venue">Market Segmentation • Business Analytics</div>
+        <div class="pub-description" id="desc-5" style="display: none;">
+          Developed a sophisticated segmentation model specifically targeting female-owned SMEs, combining 
+          demographic, behavioral, and financial data to identify high-potential customer segments. This data-driven 
+          approach enabled precision marketing and product customization.
+          <br><br>
+          <strong>Technical Approach:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Multi-dimensional clustering using demographic, financial, and behavioral features</li>
+            <li>Propensity modeling for loan uptake prediction</li>
+            <li>Risk assessment integration for responsible lending</li>
+            <li>Customer lifetime value prediction for segment prioritization</li>
+            <li>Real-time scoring system for new customer onboarding</li>
+          </ul>
+          <strong>Business Results:</strong> Achieved 1,428% growth in loans to female SMEs and NGN 1 trillion in 
+          total loan growth, contributing to 61% of total interest income. Reduced customer acquisition cost by 45% 
+          through targeted marketing.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-5', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header-name">Data Visualization & Analytics</h2>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          <a href="https://github.com/Premee12/R-Project.git" target="_blank">
+            Interactive Data Mining Dashboard
+          </a>
+        </div>
+        <div class="pub-authors">R, Shiny, ggplot2, caret, dplyr, plotly</div>
+        <div class="pub-venue">Interactive Analytics • Business Intelligence</div>
+        <div class="pub-description" id="desc-6" style="display: none;">
+          Created an interactive web application using R Shiny that democratizes data access across the organization. 
+          The dashboard combines data mining techniques with intuitive visualizations, allowing non-technical stakeholders 
+          to explore insights and make data-driven decisions.
+          <br><br>
+          <strong>Features:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Real-time data visualization with interactive filters</li>
+            <li>Predictive modeling interface for what-if analysis</li>
+            <li>Automated report generation with customizable templates</li>
+            <li>Customer behavior analysis with drill-down capabilities</li>
+            <li>Trend analysis and forecasting tools</li>
+            <li>Export functionality for presentations and reports</li>
+          </ul>
+          <strong>Impact:</strong> Democratized data access across 15+ departments, reduced report generation time by 70%, 
+          and improved data-driven decision-making. The dashboard serves 200+ monthly active users and has generated 
+          1,000+ custom reports.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-6', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          <a href="https://github.com/Premee12/Tel-Customer-Churn-SQL-Project.git" target="_blank">
+            Customer Churn Analysis Using SQL
+          </a>
+        </div>
+        <div class="pub-authors">SQL, MySQL, Data Analysis, Business Intelligence</div>
+        <div class="pub-venue">SQL Analytics • Customer Intelligence</div>
+        <div class="pub-description" id="desc-7" style="display: none;">
+          Conducted comprehensive churn analysis using advanced SQL techniques to extract insights from multi-year 
+          customer data. Identified key churn patterns, risk factors, and developed actionable recommendations for 
+          retention strategies.
+          <br><br>
+          <strong>Analysis Components:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Cohort analysis to track customer retention over time</li>
+            <li>RFM (Recency, Frequency, Monetary) segmentation</li>
+            <li>Survival analysis for customer lifetime prediction</li>
+            <li>Feature correlation analysis for churn drivers</li>
+            <li>Time-series analysis of churn patterns</li>
+          </ul>
+          <strong>Deliverables:</strong> Created comprehensive SQL-based reporting framework that identified 12 key 
+          churn indicators. Insights led to targeted retention programs that reduced churn rate by 18% in high-value 
+          customer segments.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-7', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header-name">Strategic Analytics & Product Development</h2>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          KPI-Driven Savings Platform Growth Strategy
+        </div>
+        <div class="pub-authors">Python, Data Analysis, Business Intelligence, Strategic Planning</div>
+        <div class="pub-venue">Product Strategy • Growth Analytics</div>
+        <div class="pub-description" id="desc-8" style="display: none;">
+          Designed and delivered a comprehensive, data-backed growth strategy for a savings platform, presenting 
+          findings to executive management. The project combined market analysis, competitive intelligence, and 
+          predictive modeling to identify growth opportunities.
+          <br><br>
+          <strong>Strategic Components:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Market segmentation and opportunity sizing</li>
+            <li>Customer journey mapping and pain point analysis</li>
+            <li>Competitive benchmarking and differentiation strategy</li>
+            <li>KPI framework development and target setting</li>
+            <li>Growth modeling and scenario analysis</li>
+            <li>Implementation roadmap with success metrics</li>
+          </ul>
+          <strong>Results:</strong> Strategy execution resulted in acquisition of 800+ new stash accounts in 2023, 
+          representing 45% year-over-year growth. The KPI framework is now used across the organization for product 
+          performance monitoring.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-8', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="header-name">Research & Experimental Projects</h2>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          Geospatial Benchmark through Knowledge Graph Extraction
+        </div>
+        <div class="pub-authors">Python, Knowledge Graphs, NLP, Geospatial Analysis</div>
+        <div class="pub-venue">Research • AI Reasoning • Knowledge Extraction</div>
+        <div class="pub-description" id="desc-9" style="display: none;">
+          Research project focused on creating geospatial benchmarks through automated knowledge graph extraction 
+          from unstructured data. This work explores the intersection of natural language processing, knowledge 
+          representation, and spatial reasoning.
+          <br><br>
+          <strong>Research Focus:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Automated extraction of geospatial entities and relationships</li>
+            <li>Knowledge graph construction and validation</li>
+            <li>Benchmark creation for evaluating LLM spatial reasoning</li>
+            <li>Entity resolution and disambiguation for location data</li>
+            <li>Multi-source data fusion and consistency checking</li>
+          </ul>
+          <strong>Contributions:</strong> Developed novel methods for automated geospatial knowledge extraction with 
+          87% accuracy. The benchmark dataset provides a standardized evaluation framework for assessing LLM capabilities 
+          in spatial reasoning tasks.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-9', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          Language Model Reasoning & Explainability Research
+        </div>
+        <div class="pub-authors">Python, PyTorch, Transformers, NLP, Explainable AI</div>
+        <div class="pub-venue">Research • AI Interpretability</div>
+        <div class="pub-description" id="desc-10" style="display: none;">
+          Ongoing research investigating reasoning capabilities of large language models and developing methods 
+          for improving model interpretability and explainability. Focus on understanding decision-making processes 
+          and building more transparent AI systems.
+          <br><br>
+          <strong>Research Areas:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Analysis of reasoning patterns in LLMs</li>
+            <li>Development of explainability frameworks for complex models</li>
+            <li>Chain-of-thought reasoning evaluation and enhancement</li>
+            <li>Attention mechanism analysis for transparency</li>
+            <li>Integration of symbolic reasoning with neural approaches</li>
+          </ul>
+          <strong>Status:</strong> Active research project exploring novel approaches to AI explainability with 
+          potential applications in high-stakes decision-making domains.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-10', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small> <b>Last Updated:</b> December, 2025 </small>
+        <small class="block">
+          <a href="https://github.com/Premee12" target="_blank"
+            ><span style="color: rgb(10, 93, 128)"> © Abayomi-Alli Ayomide</span></a
+          > · Hosted on
+          <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        </small>
+      </div>
+    </footer>
+
+    <script>
+      function toggleDescription(descId, button) {
+        const desc = document.getElementById(descId);
+        const isHidden = desc.style.display === 'none';
+        
+        if (isHidden) {
+          desc.style.display = 'block';
+          button.textContent = 'Read less ▲';
+          button.setAttribute('aria-expanded', 'true');
+        } else {
+          desc.style.display = 'none';
+          button.textContent = 'Read more ▼';
+          button.setAttribute('aria-expanded', 'false');
+        }
+      }
+
+      // Initialize buttons with proper ARIA attributes on page load
+      document.addEventListener('DOMContentLoaded', function() {
+        const buttons = document.querySelectorAll('.read-more-btn');
+        buttons.forEach(button => {
+          const isExpanded = button.textContent.includes('less');
+          button.setAttribute('aria-expanded', isExpanded.toString());
+        });
+      });
+    </script>
+  </body>
+</html>
