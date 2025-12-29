@@ -43,7 +43,7 @@
         <h1 class="header-name">All Projects</h1>
         <p style="text-align: justify">
           A comprehensive collection of my data science and machine learning projects, 
-          spanning natural language processing, predictive analytics, data analytics and AI automation. 
+          spanning natural language processing, predictive analytics, computer vision, and AI automation. 
           Each project demonstrates practical applications of advanced techniques to solve real-world challenges.
         </p>
       </div>
@@ -82,13 +82,48 @@
 
       <div class="publication-item">
         <div class="pub-title">
+          <a href="https://github.com/Premee12/ai-assisted-opportunity-discovery-automation" target="_blank">
+            AI-Assisted Donor Opportunity Discovery & Automation
+          </a>
+        </div>
+        <div class="pub-authors">Python, Web Scraping, Document AI, LLMs, Cloud Infrastructure, Email Automation</div>
+        <div class="pub-venue">Workflow Automation • Document Processing • AI Summarization</div>
+        <div class="pub-description" id="desc-2" style="display: none;">
+          Designed and implemented an AI-assisted system for automated discovery and dissemination of donor funding opportunities 
+          for large international organizations such as the International Labour Organization (ILO). The system addresses the 
+          challenge of monitoring fragmented donor announcements across multiple websites, portals, and documents, transforming 
+          a manual, time-consuming process into an automated, intelligent workflow.
+          <br><br>
+          <strong>System Architecture:</strong>
+          <ul style="margin-top: 0.5rem;">
+            <li>Automated scheduled scanning of official donor websites and portals</li>
+            <li>Multi-format document extraction (HTML pages, PDFs, announcements)</li>
+            <li>Document AI for structured text extraction from unstructured content</li>
+            <li>Relevance matching engine based on thematic and geographic priorities</li>
+            <li>LLM-powered summarization for concise opportunity descriptions</li>
+            <li>Automated email delivery system for stakeholder notifications</li>
+            <li>Persistent storage for historical tracking and auditing</li>
+          </ul>
+          <strong>Design Philosophy:</strong> The system prioritizes human-AI collaboration, where AI accelerates information 
+          extraction and summarization while keeping relevance criteria and decision-making human-defined. Email was deliberately 
+          chosen as the delivery channel to align with existing organizational workflows and minimize adoption friction.
+          <br><br>
+          <strong>Impact:</strong> Eliminated manual opportunity tracking, reduced discovery time from days to hours, and ensured 
+          100% coverage of official donor sources. The system provides reliable, traceable, and timely delivery of funding 
+          opportunities to relevant staff, significantly reducing cognitive overhead and missed opportunities.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+
+      <div class="publication-item">
+        <div class="pub-title">
           <a href="#" target="_blank">
             AI Chatbot for Internal Operations
           </a>
         </div>
         <div class="pub-authors">Python, LLMs, NLP, API Integration, RAG</div>
         <div class="pub-venue">Conversational AI • Enterprise Solution</div>
-        <div class="pub-description" id="desc-2" style="display: none;">
+        <div class="pub-description" id="desc-3" style="display: none;">
           Designed and deployed an enterprise-grade AI chatbot solution to streamline internal operations for 2,000+ staff members. 
           Leveraged large language models with retrieval-augmented generation (RAG) to provide accurate, context-aware responses 
           to employee queries. Integrated with existing internal systems to automate routine inquiries and workflows.
@@ -104,7 +139,7 @@
           <strong>Impact:</strong> Reduced turnaround time for routine inquiries by 70%, cut operational expenses by 30%, 
           and improved customer satisfaction scores by 48%. Automated 60% of repetitive staff queries.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-3', this)" aria-expanded="false">Read more ▼</button>
       </div>
     </div>
 
@@ -119,7 +154,7 @@
         </div>
         <div class="pub-authors">Python, SQL, Scikit-learn, Keras, TensorFlow, MySQL, PostgreSQL</div>
         <div class="pub-venue">Predictive Analytics • Deep Learning • SQL</div>
-        <div class="pub-description" id="desc-3" style="display: none;">
+        <div class="pub-description" id="desc-4" style="display: none;">
           Developed a comprehensive churn prediction system that combines advanced SQL analytics with state-of-the-art 
           machine learning models. The project involved extensive feature engineering, model comparison, and deployment 
           of the optimal solution for production use.
@@ -136,7 +171,7 @@
           strategies. Reduced customer churn by 23% and increased retention campaign ROI by 3.5x. The model processes 
           100,000+ customer records daily with sub-second latency.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-3', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-4', this)" aria-expanded="false">Read more ▼</button>
       </div>
 
       <div class="publication-item">
@@ -147,7 +182,7 @@
         </div>
         <div class="pub-authors">Python, Scikit-learn, SQL, Feature Engineering</div>
         <div class="pub-venue">Churn Mitigation • Business Intelligence</div>
-        <div class="pub-description" id="desc-4" style="display: none;">
+        <div class="pub-description" id="desc-5" style="display: none;">
           Built advanced machine learning models to identify and reactivate dormant corporate accounts, resulting in 
           significant revenue recovery. Employed sophisticated feature engineering and ensemble methods to predict 
           reactivation likelihood and optimal engagement timing.
@@ -164,7 +199,7 @@
           NGN 2.29 trillion increase in customer deposits. The targeted approach improved campaign efficiency by 
           65% compared to traditional blanket campaigns.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-4', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-5', this)" aria-expanded="false">Read more ▼</button>
       </div>
 
       <div class="publication-item">
@@ -175,7 +210,7 @@
         </div>
         <div class="pub-authors">Python, Clustering, Classification, Feature Engineering</div>
         <div class="pub-venue">Market Segmentation • Business Analytics</div>
-        <div class="pub-description" id="desc-5" style="display: none;">
+        <div class="pub-description" id="desc-6" style="display: none;">
           Developed a sophisticated segmentation model specifically targeting female-owned SMEs, combining 
           demographic, behavioral, and financial data to identify high-potential customer segments. This data-driven 
           approach enabled precision marketing and product customization.
@@ -192,7 +227,7 @@
           total loan growth, contributing to 61% of total interest income. Reduced customer acquisition cost by 45% 
           through targeted marketing.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-5', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-6', this)" aria-expanded="false">Read more ▼</button>
       </div>
     </div>
 
@@ -207,7 +242,7 @@
         </div>
         <div class="pub-authors">R, Shiny, ggplot2, caret, dplyr, plotly</div>
         <div class="pub-venue">Interactive Analytics • Business Intelligence</div>
-        <div class="pub-description" id="desc-6" style="display: none;">
+        <div class="pub-description" id="desc-7" style="display: none;">
           Created an interactive web application using R Shiny that democratizes data access across the organization. 
           The dashboard combines data mining techniques with intuitive visualizations, allowing non-technical stakeholders 
           to explore insights and make data-driven decisions.
@@ -225,7 +260,7 @@
           and improved data-driven decision-making. The dashboard serves 200+ monthly active users and has generated 
           1,000+ custom reports.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-6', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-7', this)" aria-expanded="false">Read more ▼</button>
       </div>
 
       <div class="publication-item">
@@ -236,7 +271,7 @@
         </div>
         <div class="pub-authors">SQL, MySQL, Data Analysis, Business Intelligence</div>
         <div class="pub-venue">SQL Analytics • Customer Intelligence</div>
-        <div class="pub-description" id="desc-7" style="display: none;">
+        <div class="pub-description" id="desc-8" style="display: none;">
           Conducted comprehensive churn analysis using advanced SQL techniques to extract insights from multi-year 
           customer data. Identified key churn patterns, risk factors, and developed actionable recommendations for 
           retention strategies.
@@ -253,7 +288,7 @@
           churn indicators. Insights led to targeted retention programs that reduced churn rate by 18% in high-value 
           customer segments.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-7', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-8', this)" aria-expanded="false">Read more ▼</button>
       </div>
     </div>
 
@@ -266,7 +301,7 @@
         </div>
         <div class="pub-authors">Python, Data Analysis, Business Intelligence, Strategic Planning</div>
         <div class="pub-venue">Product Strategy • Growth Analytics</div>
-        <div class="pub-description" id="desc-8" style="display: none;">
+        <div class="pub-description" id="desc-9" style="display: none;">
           Designed and delivered a comprehensive, data-backed growth strategy for a savings platform, presenting 
           findings to executive management. The project combined market analysis, competitive intelligence, and 
           predictive modeling to identify growth opportunities.
@@ -284,7 +319,7 @@
           representing 45% year-over-year growth. The KPI framework is now used across the organization for product 
           performance monitoring.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-8', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-9', this)" aria-expanded="false">Read more ▼</button>
       </div>
     </div>
 
@@ -297,7 +332,7 @@
         </div>
         <div class="pub-authors">Python, Knowledge Graphs, NLP, Geospatial Analysis</div>
         <div class="pub-venue">Research • AI Reasoning • Knowledge Extraction</div>
-        <div class="pub-description" id="desc-9" style="display: none;">
+        <div class="pub-description" id="desc-10" style="display: none;">
           Research project focused on creating geospatial benchmarks through automated knowledge graph extraction 
           from unstructured data. This work explores the intersection of natural language processing, knowledge 
           representation, and spatial reasoning.
@@ -314,7 +349,7 @@
           87% accuracy. The benchmark dataset provides a standardized evaluation framework for assessing LLM capabilities 
           in spatial reasoning tasks.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-9', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-10', this)" aria-expanded="false">Read more ▼</button>
       </div>
 
       <div class="publication-item">
@@ -323,7 +358,7 @@
         </div>
         <div class="pub-authors">Python, PyTorch, Transformers, NLP, Explainable AI</div>
         <div class="pub-venue">Research • AI Interpretability</div>
-        <div class="pub-description" id="desc-10" style="display: none;">
+        <div class="pub-description" id="desc-11" style="display: none;">
           Ongoing research investigating reasoning capabilities of large language models and developing methods 
           for improving model interpretability and explainability. Focus on understanding decision-making processes 
           and building more transparent AI systems.
@@ -339,7 +374,7 @@
           <strong>Status:</strong> Active research project exploring novel approaches to AI explainability with 
           potential applications in high-stakes decision-making domains.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-10', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-11', this)" aria-expanded="false">Read more ▼</button>
       </div>
     </div>
 
